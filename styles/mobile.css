@@ -22,17 +22,15 @@ li {
 
 .mobile {
   min-width: 320px;
-  max-width: 414px;
+  max-width: 767px;
   margin: 0 auto;
   padding: 0;
+  border: 1px solid red;
 }
 
 .header,
 .welcome {
   background: #f6f6f6;
-}
-
-.header {
 }
 
 .nav-bar {
@@ -81,8 +79,9 @@ h2 {
 }
 
 .commons p {
-  border: 2px solid #fff;
+  border: 1px solid #fff;
   padding: 20px;
+  line-height: 24px;
 }
 
 .date {
@@ -241,5 +240,201 @@ div.more > * div.less > * {
 
 .show,
 .less {
-  /* display: none; */
+  display: none;
+}
+
+.about {
+  background: #f7f7f7;
+}
+
+.about-summit {
+  text-align: center;
+  border: 1px solid gray;
+  background: #fff;
+}
+
+.contact-us {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.mail {
+  text-align: center;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.creative-commons {
+  padding: 5%;
+  background: #fff;
+  padding: 5%;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.creative-commons h2 {
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.global-s {
+  display: block;
+}
+
+.summit-bar {
+  display: block;
+  width: 10%;
+  height: 2px;
+  background: #fcbfba;
+  margin: 0 auto;
+  margin-bottom: 8%;
+  border-radius: 50%;
+}
+
+p.cc-global {
+  width: 90%;
+  text-align: center;
+  font-size: 14px;
+}
+
+.global {
+  border: 1px solid #eaeaea;
+  margin: 5% 3%;
+  padding: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.global > * {
+  margin: 0 5px;
+}
+
+.global img {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+}
+
+.global h3 {
+  width: 45%;
+}
+
+.global span {
+  display: block;
+  line-height: 25px;
+  text-align: left;
+}
+
+.cc-global {
+  font-size: 24px;
+}
+
+.s-2015 {
+  font-size: 20px;
+}
+
+.s-date {
+  font-size: 10px;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  line-height: 8px;
+  margin: 0;
+  padding: 0;
+}
+
+.past-summits {
+  background: #fff;
+  padding: 5%;
+  text-align: center;
+}
+
+.past-summits h3 {
+  font-size: 18px;
+  padding-top: 20px;
+}
+
+.past-summits p {
+  padding-bottom: 15px;
+}
+
+.pics {
+  margin: 5%;
+  display: flex;
+  flex-direction: column;
+}
+
+.pics img {
+  margin-bottom: 15px;
+}
+
+footer {
+  background: #424146;
+}
+
+.partners h3 {
+  text-align: center;
+  padding-top: 7%;
+}
+
+.summit-bar {
+  display: block;
+  width: 10%;
+  height: 2px;
+  background: #964840;
+  margin: 0 auto;
+  margin-bottom: 8%;
+  border-radius: 50%;
+}
+
+.partners ul {
+  display: flex;
+  justify-content: center;
+}
+
+.partners li {
+  font-size: 24px;
+  margin: 0 5%;
+  color: #bfbfbf;
+}
+
+.partners li:nth-child(2) {
+  color: #818180;
+}
+
+.dmk-air li {
+  color: #6d6d6d;
+}
+
+.airbn {
+  margin-right: 10px;
+}
+
+.last {
+  display: flex;
+  justify-content: center;
+  background: #fff;
+  padding: 2%;
+}
+
+.last > * {
+  margin: 0 1%;
+}
+
+.cck {
+  display: flex;
+}
+
+.cck p {
+  margin-left: 10px;
+}
+
+.fc-korea {
+  display: flex;
+}
+
+.copyright {
+  display: block;
 }
