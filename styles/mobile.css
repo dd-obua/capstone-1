@@ -21,8 +21,7 @@ li {
 }
 
 .mobile {
-  min-width: 320px;
-  max-width: 767px;
+  min-width: 375px;
   margin: 0 auto;
   padding: 0;
   border: 1px solid red;
