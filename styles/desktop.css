@@ -1,0 +1,214 @@
+@media screen and (min-width: 768px) {
+  * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+
+  .nav-bar-mobile {
+    display: none;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .desktop {
+    display: block;
+  }
+
+  .nav-bar-deskop {
+    display: block;
+  }
+
+  .nav-bar-1 {
+    background: #3e3e3e;
+  }
+
+  .nav-bar-1 ul {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10%;
+    padding: 5px;
+  }
+
+  .nav-bar-1 li {
+    margin: 0 1%;
+  }
+
+  .nav-bar-1 li a {
+    color: #fff;
+  }
+
+  .nav-bar-2 ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nav-bar-2 li {
+    margin: 0 2%;
+  }
+
+  .nav-bar-2 img {
+    width: 100px;
+    position: absolute;
+    left: 10%;
+    top: 6%;
+    /* margin-right: 27%; */
+  }
+
+  .nav-bar-2 a {
+    color: #777777;
+  }
+
+  .reddish {
+    color: #f19c9a !important;
+  }
+
+  .bord {
+    border: 3px solid #f14a36;
+    padding: 7px;
+  }
+
+  .welcome {
+    background: #f8f8f8;
+    color: #8b8b8b;
+  }
+
+  .commons h1 {
+    border: 0;
+    margin-bottom: 1%;
+  }
+
+  .commons h2 {
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0;
+    margin-left: 5%;
+  }
+
+  .commons span {
+    display: block;
+  }
+
+  .commons p {
+    margin: 2% 5%;
+    border: 2px solid #fff;
+    width: 50%;
+  }
+
+  .date {
+    margin-left: 5%;
+    font-size: 28px;
+    font-weight: 600;
+  }
+
+  .venue {
+    display: block;
+    margin-left: 10%;
+    padding-bottom: 5%;
+  }
+
+  .main-thing {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .main-program h3 {
+    padding: 0;
+    padding-top: 3%;
+  }
+
+  .bar {
+    /* margin: 0; */
+    margin-bottom: 3%;
+    width: 3%;
+  }
+
+  .program {
+    background: #3c3f46;
+    display: flex;
+    flex-direction: column;
+    margin-right: 1%;
+  }
+
+  .program h4 {
+    width: 70%;
+    text-align: center;
+    margin: 5px 0;
+  }
+
+  .program p {
+    width: 100%;
+    text-align: center;
+  }
+
+  .join {
+    display: none;
+  }
+
+  .main-program a {
+    width: 30%;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+    text-decoration: underline;
+  }
+
+  .speakers {
+    background: #f8f8f8;
+  }
+
+  .speakers h3 {
+    padding-top: 3%;
+    padding-bottom: 1%;
+    margin: 0 auto;
+  }
+
+  .speakers .bar {
+    width: 5%;
+  }
+
+  .speakers-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 10%;
+  }
+
+  .more,
+  .less {
+    display: none;
+  }
+
+  .last {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 15%;
+  }
+
+  .cck {
+    width: 25%;
+  }
+
+  .cck p {
+    padding-top: 6%;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 13px;
+  }
+
+  .cck span {
+    display: block;
+  }
+
+  .cck img {
+    width: 60px;
+    height: 60px;
+  }
+}

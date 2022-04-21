@@ -24,15 +24,14 @@ li {
   min-width: 375px;
   margin: 0 auto;
   padding: 0;
-  border: 1px solid red;
 }
 
 .header,
 .welcome {
-  background: #f6f6f6;
+  /* background: #f6f6f6; */
 }
 
-.nav-bar {
+.nav-bar-mobile {
   display: flex;
   align-items: flex-start;
 }
@@ -73,7 +72,7 @@ li {
 
 .commons h1,
 h2 {
-  color: rgb(156, 30, 30);
+  color: #ee4435;
   margin: 5%;
 }
 

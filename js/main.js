@@ -13,22 +13,3 @@ close.addEventListener('click', () => {
   menu.style.display = 'none';
   close.style.display = 'none';
 });
-
-const showMore = document.querySelector('.more');
-const showLess = document.querySelector('.less');
-const showSpeaker = document.getElementsByClassName('show');
-const hideSpeaker = document.getElementsByClassName('hide');
-
-showMore.addEventListener('click', () => {
-  showSpeaker.style.display = 'block';
-  hideSpeaker.style.display = 'none';
-  showMore.style.display = 'none';
-  showLess.style.display = 'block';
-});
-
-showLess.addEventListener('click', () => {
-  showSpeaker.style.display = 'none';
-  hideSpeaker.style.display = 'block';
-  showMore.style.display = 'block';
-  showLess.style.display = 'none';
-});
