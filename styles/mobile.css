@@ -26,11 +26,6 @@ li {
   padding: 0;
 }
 
-.header,
-.welcome {
-  /* background: #f6f6f6; */
-}
-
 .nav-bar-mobile {
   display: flex;
   align-items: flex-start;

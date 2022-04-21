@@ -42,7 +42,6 @@
 
   .nav-bar-2 ul {
     display: flex;
-    align-items: center;
     justify-content: center;
   }
 
@@ -55,11 +54,18 @@
     position: absolute;
     left: 10%;
     top: 6%;
-    /* margin-right: 27%; */
   }
 
   .nav-bar-2 a {
     color: #777777;
+  }
+
+  .nav-bar-2 a:active {
+    color: #f19c9a;
+  }
+
+  .nav-bar-2 a:hover {
+    color: #0a0133;
   }
 
   .reddish {
@@ -210,5 +216,18 @@
   .cck img {
     width: 60px;
     height: 60px;
+  }
+
+  .fc-korea {
+    display: flex;
+    flex-direction: column;
+  }
+  .fc-korea span {
+    float: left;
+  }
+
+  .cc-kor {
+    padding-top: 1%;
+    width: 30%;
   }
 }
