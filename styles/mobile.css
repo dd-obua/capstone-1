@@ -16,6 +16,7 @@ body {
   color: #201e1e;
   font-size: 14px;
   background: #fff;
+  overflow-x: hidden;
 }
 
 .header {
