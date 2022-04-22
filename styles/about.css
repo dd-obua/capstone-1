@@ -70,4 +70,8 @@
     width: 40%;
     margin: 0 1%;
   }
+
+  footer {
+    display: block;
+  }
 }
