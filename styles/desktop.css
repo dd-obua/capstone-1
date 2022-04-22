@@ -49,13 +49,6 @@
     margin: 0 2%;
   }
 
-  .nav-bar-2 img {
-    width: 100px;
-    position: absolute;
-    left: 10%;
-    top: 6%;
-  }
-
   .nav-bar-2 a {
     color: #777777;
   }
@@ -240,4 +233,21 @@
     height: 80px;
     border-radius: 50%;
   }
+
+  /* .djs {
+      width: 45px;
+      position: absolute;
+      left: 10%;
+      top: 6%;
+      border: 5px solid #1176ae;
+      border-radius: 50%;
+    } */
+  /* .nav-bar-2 img {
+    width: 45px;
+    position: absolute;
+    left: 10%;
+    top: 6%;
+    border: 5px solid #1176ae;
+    border-radius: 50%;
+  } */
 }
