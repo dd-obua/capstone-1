@@ -7,6 +7,7 @@
   .commons h2 {
     width: 40%;
     margin: 0 auto;
+    text-align: center;
   }
 
   .commons p {
@@ -55,10 +56,6 @@
     margin: 3% 35% 0 35%;
     padding: 3%;
     border: 2px solid;
-  }
-  .logo img {
-    width: 200px;
-    padding-left: 30%;
   }
 
   .pics {
