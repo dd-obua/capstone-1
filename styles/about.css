@@ -1,0 +1,82 @@
+@media screen and (min-width: 768px) {
+  .nav-bar-mobile {
+    display: none;
+  }
+
+  header {
+    background: #fff;
+    padding-bottom: 1px;
+  }
+
+  .commons h2 {
+    width: 40%;
+    padding-top: 12%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .commons p {
+    margin: 0 auto;
+  }
+
+  .about-bar {
+    display: block;
+    width: 2%;
+    height: 2px;
+    background: #863a35;
+    margin: 2% auto 3% auto;
+  }
+
+  .contact-us {
+    margin: 2% auto 3% auto;
+  }
+
+  .contact-us span {
+    display: block;
+  }
+
+  .creative-commons {
+    padding: 2% auto 1% auto;
+  }
+
+  .creative-commons h2 {
+    margin: 0;
+    padding-bottom: 1%;
+  }
+
+  .summit-bar {
+    display: block;
+    width: 2%;
+    height: 2px;
+    background: #863a35;
+    margin: 0 auto 1% auto;
+  }
+
+  .cc-global {
+    width: 45% !important;
+    margin: 0 auto;
+  }
+
+  .logo {
+    margin: 3% 35% 0 35%;
+    padding: 3%;
+    border: 2px solid;
+  }
+
+  .pics {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .pics img {
+    width: 40%;
+    margin: 0 1%;
+  }
+
+  footer {
+    display: block;
+  }
+}
