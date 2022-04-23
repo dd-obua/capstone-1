@@ -1,4 +1,8 @@
 @media screen and (min-width: 768px) {
+  .nav-bar-mobile {
+    display: none;
+  }
+
   header {
     background: #fff;
     padding-bottom: 1px;
