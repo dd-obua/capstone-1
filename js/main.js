@@ -62,10 +62,27 @@ const insturctors = [
       'Even if we may not all be friends. Infact, even if some people are your worst enemies, you will harmoniously meet on the Web. Not just a repository of information but where we socialize, do business, entertain ourselves ...',
   },
   {
-    photo: './img/ps-5.jpeg',
+    photo: './img/ps-6.jpeg',
     name: 'Ms. Mercy A.',
     position: ' Lecturer, Mobile Applications Development - DJS University',
     message:
       'Carry the web, you games, banks, navigation system in your pocket. Life is much easier with phones but most importantly, the phone applications.',
   },
 ];
+
+const speakerContainer = document.querySelector('.speakers-container');
+insturctors.forEach((instructor) => {
+  const speaker = `
+    <div class="speaker hide">
+      <img src="${instructor.photo}" alt="" class="photo" />
+      <div class="text">
+        <h4 class="name">${instructor.name}</h4>
+        <span>${instructor.position}</span>
+        <span class="under-score"></span>
+        <p>${instructor.message}</p>
+      </div>
+    </div>
+  `;
+
+  speakerContainer.innerHTML += speaker;
+});
