@@ -70,8 +70,11 @@ const insturctors = [
   },
 ];
 
+const showLess = document.querySelector('.less');
+const showMore = document.querySelector('.more');
+
 const speakerContainer = document.querySelector('.speakers-container');
-insturctors.forEach((instructor) => {
+insturctors.forEach((instructor, index) => {
   const speaker = `
     <div class="speaker hide">
       <img src="${instructor.photo}" alt="" class="photo" />
@@ -84,5 +87,8 @@ insturctors.forEach((instructor) => {
     </div>
   `;
 
-  speakerContainer.innerHTML += speaker;
+  if (index < 2) {
+    speakerContainer.innerHTML += speaker;
+    showLess.style.display = 'none';
+  }
 });
